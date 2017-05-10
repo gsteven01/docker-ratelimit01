@@ -58,7 +58,7 @@ In the grafana admin panel use the left hand nav and goto 'Dashboards' -> Import
 
 On the import page paste the number '1152' into the 'Grafana.net Dashboard' field and press load.  This number is the ref num for jmeter plugin for grafana. 
 
-This will load the plugin config page.  Under options select the source 'jmeterInfluxDBContainer' which has automatically been setup for your lazy ass.
+This will load the plugin config page.  Under options select the source 'jmeterInfluxDBContainer'
 
 Click import.
 
