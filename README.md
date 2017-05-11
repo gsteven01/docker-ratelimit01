@@ -39,6 +39,16 @@ Also, ..get a basic understanding of jmeter, docker , grafana and influxdb.
 
 #How?
 
+#Tested and confirmed to be working on the following env - please ensure your env is up to date.
+Client:
+Version:      17.03.1-ce
+API version:  1.27
+Go version:   go1.7.5
+Git commit:   c6d412e
+Built:        Tue Mar 28 00:40:02 2017
+OS/Arch:      darwin/amd64
+####
+
 ./run.sh or docker-compose up to start the stack
 
 ./run-once to setup db's and datasources.
