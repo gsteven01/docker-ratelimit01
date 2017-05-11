@@ -98,12 +98,12 @@ docker run --rm --link=influxdb -it influxdb influx -host influxdb
 
 #to restart nginx you can simply inject the command into the continer.
 
-#see a very good explaination of nginx rate limiting below - this article inspired me to build this stack in docker with added visualisaiton - the auto also maintains the nginx docker image used in this stack.
+#see a very good explaination of nginx rate limiting below - this article inspired me to build this stack in docker with added visualisaiton - the author also maintains the nginx docker image used in this stack.
 https://medium.freecodecamp.com/nginx-rate-limiting-in-a-nutshell-128fe9e0126c
 
 
 
-#TODO. (If I can be arsed)
+#TODO. 
 Automate the lot including creation of db, datasource and dashboards etc.
 
 Include jmeter container and ability to run tests from cmd line.
